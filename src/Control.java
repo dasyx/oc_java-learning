@@ -14,5 +14,6 @@ class Exemple {
 
     static void printText(){
         System.out.println(text);
+        //add a new comment
     }
 }
