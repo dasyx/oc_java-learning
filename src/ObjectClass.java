@@ -1,13 +1,15 @@
 public class ObjectClass {
 
     public static void main(String[] args) {
-        //déclaration d'un nouvel objet de type Marque
-        //l'objet est appelé instance de classe
-        Marque apple = new Marque("Apple");
+        // Déclaration d'un nouvel objet de type Marque
+        // L'objet est appelé instance de classe
+        Marque maMarque = new Marque("Apple");
 
-        Telephone iphone = new Telephone(34000, "Iphone", apple);
+        Telephone monTelephone = new Telephone(34000, "Iphone", maMarque);
 
-        System.out.println(iphone);
+        // Affichage de la marque du téléphone
+        System.out.println(monTelephone.marque.nom); // Apple
+        System.out.println(maMarque.nom);            // Apple
 
     }
 }
@@ -17,9 +19,9 @@ class Telephone {
     String nom;
     Marque marque;
 
-    //ceci est un constructor
+    // Ceci est un constructeur
     public Telephone(int pixels, String nom, Marque marque) {
-        //ne pas oublier de mettre à jour la valeur des attributs par les arguments
+        // Ne pas oublier de mettre à jour la valeur des attributs par les arguments
         this.pixels = pixels;
         this.nom = nom;
         this.marque = marque;
