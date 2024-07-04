@@ -4,6 +4,8 @@ public class ObjectClass {
         // Déclaration d'un nouvel objet de type Marque
         // L'objet est appelé instance de classe
         Marque maMarque = new Marque("Apple");
+        // Réassignation de la valeur "nom" de l'objet maMarque
+        maMarque.nom = "La Pomme Croquée";
 
         Telephone monTelephone = new Telephone(34000, "Iphone", maMarque);
 
