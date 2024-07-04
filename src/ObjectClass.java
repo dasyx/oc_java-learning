@@ -11,24 +11,24 @@ public class ObjectClass {
     }
 }
 
-    class Telephone {
-        int pixels;
-        String nom;
-        Marque marque;
+class Telephone {
+    int pixels;
+    String nom;
+    Marque marque;
 
-        //ceci est un constructor
-        public Telephone(int pixels, String nom, Marque marque) {
-            //ne pas oublier de mettre à jour la valeur des attributs par les arguments
-            this.pixels = pixels;
-            this.nom = nom;
-            this.marque = marque;
-        }
+    //ceci est un constructor
+    public Telephone(int pixels, String nom, Marque marque) {
+        //ne pas oublier de mettre à jour la valeur des attributs par les arguments
+        this.pixels = pixels;
+        this.nom = nom;
+        this.marque = marque;
     }
+}
 
-    class Marque {
-        String nom;
+class Marque {
+    String nom;
 
-        public Marque(String nom) {
-            this.nom = nom;
-        }
+    public Marque(String nom) {
+        this.nom = nom;
     }
+}
