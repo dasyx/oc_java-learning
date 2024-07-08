@@ -5,7 +5,7 @@ public class ClassPolymorphism2 {
         Animal a1 = new Animal();
         Animal a2 = new Chien();
 
-        a1.deplacer();
+        //a1.deplacer();
         a2.deplacer();
 
     }
@@ -15,9 +15,11 @@ public class ClassPolymorphism2 {
         }
     }
     static class Chien extends Animal {
-        @Override
         void deplacer() {
-            System.out.println("Je marche");
+            // Implémentation de la classe parente (Animal)
+            // Avec le mot clé "super"
+            super.deplacer();
+            System.out.println("ouaf ouaf");
         }
     }
     static class Oiseau extends Animal {
