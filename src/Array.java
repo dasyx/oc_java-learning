@@ -1,4 +1,4 @@
-public class Stack {
+public class Array {
 
     public static void main(String[] args) {
         // On commence par déclarer le type d'éléments que l'on va stocker
