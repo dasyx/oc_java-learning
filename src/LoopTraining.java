@@ -7,5 +7,11 @@ public class LoopTraining {
 //        while(i < myValues.length) {
 //
 //        }
+       /* int[] values = {4, 13, 26, 35};
+        int sum = 0;
+        for(int number : values) {
+            sum += number;
+        }
+        System.out.println(sum);*/
     }
 }
