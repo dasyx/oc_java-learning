@@ -2,6 +2,8 @@ public class Operators {
     public static void main(String[] args){
         int entier = -12;     // Opérateur unaire (qui s'applique à un seul opérande)
         int entier2 = 5 + 3;  // Opérateur binaire (qui s'applique à deux opérandes)
+        System.out.println(entier);
+        System.out.println(entier2);
 
         // Opérateurs arithmétiques
         int addition = 5 + 3;
@@ -9,6 +11,12 @@ public class Operators {
         int multiplication = 5 * 3;
         int division = 5 / 3;
         int modulo = 5 % 3;
+        System.out.println(addition);
+        System.out.println(soustraction);
+        System.out.println(multiplication);
+        System.out.println(division);
+        System.out.println(modulo);
+
 
         // Opérateur d'assignation
         int a = 5;
@@ -19,7 +27,7 @@ public class Operators {
         var plusPetit = 4;
         var plusGrand = 5;
         var comparaison = plusPetit == plusGrand;
-        boolean estPlusPetit = plusPetit < plusGrand;
+        //boolean estPlusPetit = plusPetit < plusGrand;
         System.out.println(comparaison);
 
         // Opérateurs logiques
@@ -33,6 +41,8 @@ public class Operators {
         // Opérateurs de décalage
         int decalageDroite = 5 >> 1; // 5 / 2
         int decalageGauche = 5 << 1; // 5 * 2
+        System.out.println(decalageDroite);
+        System.out.println(decalageGauche);
 
         // Chainage d'opérateurs
         int x = 5;
@@ -77,6 +87,7 @@ public class Operators {
         // Utilisation des parenthèses pour changer l'ordre d'évaluation
         int resultat2 = (5 + 3) * 2; // 16
         System.out.println(resultat2);
+
 
     }
 }
